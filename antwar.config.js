@@ -4,7 +4,10 @@ module.exports = {
   site: {
     output: 'build',
     name: 'Antwar minimal boilerplate',
-    author: 'Dr A N Twar',
+    author: {
+      name: 'Dr A N Twar',
+      email: 'antwar@antwar.com'
+    },
     deploy: {
       branch: 'gh-pages',
     },
