@@ -3,6 +3,7 @@
 module.exports = {
   output: 'build',
   name: 'Antwar minimal boilerplate',
+  baseUrl: 'https://BOILERPLATE.COM/',
   author: {
     name: 'Dr A N Twar',
     email: 'antwar@antwar.com'
