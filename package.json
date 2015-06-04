@@ -4,7 +4,7 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.0.2",
   "dependencies": {
-    "antwar-minimal-theme": "^0.0.2"
+    "antwar-minimal-theme": "^0.1.0"
   },
   "devDependencies": {},
   "repository": {
