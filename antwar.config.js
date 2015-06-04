@@ -3,7 +3,6 @@
 module.exports = {
   output: 'build',
   name: 'Antwar minimal boilerplate',
-  baseUrl: 'https://BOILERPLATE.COM/',
   author: {
     name: 'Dr A N Twar',
     email: 'antwar@antwar.com'
@@ -19,6 +18,23 @@ module.exports = {
       {title: 'Page', path: '/page'},
       {title: 'MarkdownPage', path: '/markdownpage'}
     ]
-  }
+  },
+  paths: {
+    '/': {
+      path: function() {
+        return require.context('./pages');
+      }
+    },
+    blog: {
+      title: 'Blog posts',
+      layout: 'blog',
+      path: function() {
+        return require.context('./posts', true, /^\.\/.*\.md$/);
+      },
+      draft: function() {
+        return require.context('./drafts', true, /^\.\/.*\.md$/);
+      },
+    }
+  },
 };
 
