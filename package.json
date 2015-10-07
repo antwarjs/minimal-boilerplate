@@ -2,15 +2,11 @@
   "name": "antwar-minimal-boilerplate",
   "description": "Minimal Boilerplate for Antwar",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "antwar-minimal-theme": "^0.1.0"
   },
-  "scripts": {
-    "start": "antwar -d",
-    "build": "antwar -b",
-    "deploy": "antwar -D"
-  },
+  "scripts": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -25,6 +21,5 @@
     "minimal",
     "boilerplate"
   ],
-  "licenses": "MIT",
-  "scripts": {}
+  "licenses": "MIT"
 }
