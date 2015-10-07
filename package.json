@@ -6,6 +6,11 @@
   "dependencies": {
     "antwar-minimal-theme": "^0.1.0"
   },
+  "scripts": {
+    "start": "antwar -d",
+    "build": "antwar -b",
+    "deploy": "antwar -D"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
